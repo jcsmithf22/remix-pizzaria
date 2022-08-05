@@ -102,18 +102,14 @@ export default function Index() {
             />
           </div>
         </div>
-        <div className="w-full px-4 pb-4 sm:pb-0 sm:p-0">
+        <div className="sm:w-full max-w-full mx-4 p-4 mb-4 rounded-xl shadow-lg sm:mb-0 sm:p-8 sm:m-0 overflow-hidden bg-indigo-500">
           <div
             className="
             flex flex-col
             gap-4
-            p-4
             text-xl text-indigo-100
-            bg-indigo-500
-            shadow-lg
-            sm:gap-8 sm:p-8
+            sm:gap-8
             lg:text-2xl
-            rounded-xl
             md:flex-row md:leading-normal
             lg:leading-relaxed
           "
