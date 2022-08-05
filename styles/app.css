@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: RobotoSemiBold;
+    src: url(/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  }
+}
+
+.hideBtn {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.heading {
+  background: url(/images/heading.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.image-container1 {
+  background: url(/images/heart_pizza.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container2 {
+  background: url(/images/ice_cream.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.image-container3 {
+  background: url(/images/inside_building.jpg);
+  background-size: cover;
+  background-position: center;
+}
