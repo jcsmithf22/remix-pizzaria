@@ -82,6 +82,7 @@ export default function Index() {
               imgAlt="heart_pizza"
               title="Homemade Pizza"
               body="We lovingly make our own dough and pizza"
+              styleNum='1'
             />
             <ItemCard
               bgColor="bg-yellow-100"
@@ -89,6 +90,7 @@ export default function Index() {
               imgAlt="ice cream cone"
               title="Pure Goodness"
               body="Enjoy our fantastic ice cream and handcrafted cones"
+              styleNum='2'
             />
             <ItemCard
               bgColor="bg-purple-100"
@@ -96,6 +98,7 @@ export default function Index() {
               imgAlt="inside building"
               title="Quality Service"
               body="Small town service, big city pizza"
+              styleNum='3'
             />
           </div>
         </div>

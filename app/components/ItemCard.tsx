@@ -4,12 +4,14 @@ export default function ItemCard({
   imgAlt,
   title,
   body,
+  styleNum
 }: {
   bgColor: string,
   imgSrc: string,
   imgAlt: string,
   title: string,
-  body: string
+  body: string,
+  styleNum: string
 }) {
   return (
     <div
@@ -24,7 +26,7 @@ export default function ItemCard({
               md:flex-1 md:border-0 md:${bgColor}
             `}
     >
-      <div className="w-3/12 image-container2 md:w-auto">
+      <div className={`w-3/12 image-container${styleNum} md:w-auto`}>
         <img
           className="hidden md:inline"
           src={imgSrc}
