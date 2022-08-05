@@ -77,7 +77,7 @@ export default function Index() {
           "
           >
             <ItemCard
-              bgColor="bg-green-100"
+              bgColor="md:bg-green-100"
               imgSrc="/images/heart_pizza.jpg"
               imgAlt="heart_pizza"
               title="Homemade Pizza"
@@ -85,7 +85,7 @@ export default function Index() {
               styleNum='1'
             />
             <ItemCard
-              bgColor="bg-yellow-100"
+              bgColor="md:bg-yellow-100"
               imgSrc="/images/ice_cream.jpg"
               imgAlt="ice cream cone"
               title="Pure Goodness"
@@ -93,7 +93,7 @@ export default function Index() {
               styleNum='2'
             />
             <ItemCard
-              bgColor="bg-purple-100"
+              bgColor="md:bg-purple-100"
               imgSrc="/images/inside_building.jpg"
               imgAlt="inside building"
               title="Quality Service"

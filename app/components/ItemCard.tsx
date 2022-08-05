@@ -23,7 +23,7 @@ export default function ItemCard({
               shadow-lg
               md:flex-col
               card-item
-              md:flex-1 md:border-0 md:${bgColor}
+              md:flex-1 md:border-0 ${bgColor}
             `}
     >
       <div className={`w-3/12 image-container${styleNum} md:w-auto`}>
