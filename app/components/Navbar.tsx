@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
           <div className="title cursor-pointer">
             <h3 className="text-lg font-main-semibold lg:text-xl">
-              Random Lake Pizzaria
+              Random Lake Pizzeria
             </h3>
           </div>
         </div>
